@@ -1,8 +1,10 @@
 # Desafio Modulo 07 Proyecto 03
 
-~~~
-## Crear BD
-~~~
+
+## Base Datos
+
+
+### Crear BD y tabla
 
 ```
 CREATE DATABASE likeme;
@@ -16,10 +18,10 @@ INSERT INTO "posts" ("titulo", "img", "descripcion", "likes") VALUES
 ```
 
 ---
-~~~
+
 
 ## Backend
-~~~
+
 
 ### Instalar dependencias
 
@@ -35,10 +37,9 @@ $ npm start
 
 ---
 
-~~~
 
 ## Frontend
-~~~
+
 
 ### Instalar dependencias
 
@@ -46,7 +47,7 @@ $ npm start
 $ npm install
 ```
 
-### Iniciar FrontEnd
+### Iniciar Frontend
 
 ```
 $ npm run dev
