@@ -16,8 +16,8 @@ app.use(express.json())
 const PORT = process.env.PORT || 3000
 
 // Agregar nuevo registro
-app.post('/posts', (req, res) => {
-    agregarPost(req.body);
+app.post('/posts', async (req, res) => {
+    await agregarPost(req.body);
     res.status(201).send("Registro agregado!");
 })
 
